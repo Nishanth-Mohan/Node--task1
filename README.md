@@ -22,12 +22,12 @@
 2. '/new-create-write-read-txt': Creates a new text file with the current timestamp and timezone information. Then, reads the file content and displays it.
 3. '/read-all-txtFiles': Retrieves and displays all text files from the TimeStamp directory.
 
- ## File Operations
+- ## File Operations
   
 1. Files are created in the ./TimeStamp/ directory. Ensure this directory exists or create it before running the server.
 
 
-    ## Timezone Information
+ - ## Timezone Information
   
 1. Uses Intl.DateTimeFormat().resolvedOptions().timeZone to get the timezone name.
 2. Uses getTimezoneOffset() to get the offset from UTC in minutes.
